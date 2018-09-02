@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.volts.bounce" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Bounce</name>
+    <description>
+        A little funny game
+    </description>
+    <author email="alexandre.volts@gmail.com" href="http://volts.uphero.com">
+        Alexandre Volts
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
