@@ -9,4 +9,31 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+	<platform name="android">
+		<preference name="SplashMaintainAspectRatio" value="true"/>
+		<icon density="ldpi" src="res/icon/android/ldpi.png"/>
+		<icon density="mdpi" src="res/icon/android/mdpi.png"/>
+		<icon density="hdpi" src="res/icon/android/hdpi.png"/>
+		<icon density="xhdpi" src="res/icon/android/xhdpi.png"/>
+		<icon density="xxhdpi" src="res/icon/android/xxhdpi.png"/>
+		<icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png"/>
+		 <!--  Portrait  -->
+		<splash density="port-ldpi" src="res/screen/android/splash-port-ldpi.png"/>
+		<splash density="port-mdpi" src="res/screen/android/splash-port-mdpi.png"/>
+		<splash density="port-hdpi" src="res/screen/android/splash-port-hdpi.png"/>
+		<splash density="port-xhdpi" src="res/screen/android/splash-port-xhdpi.png"/>
+		<splash density="port-xxhdpi" src="res/screen/android/splash-port-xxhdpi.png"/>
+		<splash density="port-xxxhdpi" src="res/screen/android/splash-port-xxxhdpi.png"/>
+	</platform>
+	<platform name="windows">
+        <icon src="res/icon/windows/storelogo.png" target="StoreLogo"/>
+        <icon src="res/icon/windows/smalllogo.png" target="Square30x30Logo"/>
+        <icon src="res/icon/windows/Square44x44Logo.png" target="Square44x44Logo"/>
+        <icon src="res/icon/windows/Square70x70Logo.png" target="Square70x70Logo"/>
+        <icon src="res/icon/windows/Square71x71Logo.png" target="Square71x71Logo"/>
+        <icon src="res/icon/windows/Square150x150Logo.png" target="Square150x150Logo"/>
+        <icon src="res/icon/windows/Square310x310Logo.png" target="Square310x310Logo"/>
+        <splash src="res/screen/windows/splashscreen.png" target="SplashScreen"/>
+        <splash src="res/screen/windows/splashscreenphone.png" target="SplashScreenPhone"/>
+    </platform>
 </widget>

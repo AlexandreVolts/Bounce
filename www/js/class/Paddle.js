@@ -18,6 +18,16 @@ var Paddle = function(canvas, margin = 100)
 		mousePosition.y = event.pageY;
 		bounds.x = mousePosition.x - bounds.width / 2;
 	}
+	let getTouchPosition = function(event)
+	{
+		let e = {};
+
+		if (event.touches.length <= 0)
+			return;
+		e.pageX = event.touches[0].pageX;
+		e.pageY = event.touches[0].pageY;
+		getMousePosition(e);
+	}
 	
 	this.collides = function(ball)
 	{
@@ -49,4 +59,5 @@ var Paddle = function(canvas, margin = 100)
 		return (mousePosition);
 	}
 	window.addEventListener("mousemove", getMousePosition);
+	window.addEventListener("touchmove", getTouchPosition);
 }
